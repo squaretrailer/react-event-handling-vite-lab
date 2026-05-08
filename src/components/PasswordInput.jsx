@@ -1,13 +1,12 @@
 function PasswordInput() {
-  // Create handleChange function
   const handleChange = () => {
-    console.log("Entering password…");
+    console.log("Entering password...");   // ← change … to three dots
   };
 
   return (
     <input
       type="password"
-      onChange={handleChange}   // call handleChange on change event
+      onChange={handleChange}
     />
   );
 }
